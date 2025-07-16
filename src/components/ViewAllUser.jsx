@@ -240,8 +240,9 @@ const ViewAllUser = () => {
   return (
     <div>
       <UserNavbar />
+    <div style={{ backgroundColor: '#FAF0E6', minHeight: '100vh', paddingBottom: '30px' }}>
       <div className="container mt-4">
-        <h2 className="mb-4">User Details</h2>
+        <h2 className="text-center text-brown mb-4">ALL USERS</h2>
         <table className="table table-bordered table-hover">
           <thead className="table-dark">
             <tr>
@@ -275,6 +276,7 @@ const ViewAllUser = () => {
           </tbody>
         </table>
       </div>
+    </div>
     </div>
   );
 };

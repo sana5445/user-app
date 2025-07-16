@@ -5,6 +5,9 @@ const SearchUser = () => {
   return (
     <div>
         <UserNavbar/>
+         <div style={{ backgroundColor: '#FAF0E6', minHeight: '100vh', paddingBottom: '30px' }}>
+        <h2 style={{ color: "brown", textAlign: "center" }}>SEARCH USER</h2>
+        <div className="bg-light p-4 rounded shadow">
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
@@ -13,14 +16,16 @@ const SearchUser = () => {
                              <div className="label form-label">Name</div>
                             <input type="text" className="form-control" />
                         </div>
-                        <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                            <button className="btn btn-success">SEARCH</button>
+                       <div className="col-12 d-flex justify-content-center mt-3">
+                         <button className="btn btn-success">SEARCH</button>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+   </div>
+   </div>
   )
 }
 
